@@ -20,6 +20,12 @@ kick-all-help-whitelist: "모두 킥하고, 화이트리스트를 킵니다."
 kick-all-help-help-command: "/kickall help <now|delay|without|whitelist|help>"
 kick-all-help-help: "/kickall 서브명령어의 설명을 보실 수 있습니다."
 
+kick-all-command-help: "help"
+kick-all-command-now: "now"
+kick-all-command-delay: "delay"
+kick-all-command-without: "without"
+kick-all-command-whitelist: "whitelist"
+
 kor-you-are-kicked: "모두 킥되었습니다. reason : %reason%"
 kor-delay-kick: "%sec%초 뒤 모두 킥됩니다."
 kor-kick-success: "Success"

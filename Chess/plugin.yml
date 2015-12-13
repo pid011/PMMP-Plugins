@@ -1,0 +1,6 @@
+name: Chess
+main: Mohi\Chess\Chess
+author: "Mohi(물외한인)"
+version: "0.1"
+api:
+- 1.13.0

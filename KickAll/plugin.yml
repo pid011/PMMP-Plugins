@@ -1,0 +1,13 @@
+name: KickAll
+main: Mohi\KickAll\KickAllMain
+author: "Mohi(물외한인)"
+version: "1.0"
+api:
+- 1.12.0
+- 1.13.0
+- 2.0.0
+
+permissions:
+ kickall.command.allow:
+  descript: "KickAll command permission"
+  default: OP 

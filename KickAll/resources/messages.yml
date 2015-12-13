@@ -1,0 +1,25 @@
+m_version: 1
+
+#EN(English)
+eng: true
+eng-prefix: [Server]
+
+#KR(Korean)
+kor: true
+kor-prefix: [KickAll]
+
+kick-all-help: "/kickall <now|delay|without|whitelist|help>"
+kick-all-help-now-command: "/kickall now <reason>"
+kick-all-help-now: "모두 킥합니다."
+kick-all-help-delay-command: "/kickall delay <초> <reason>"
+kick-all-help-delay: "<초> 후 모두 킥합니다."
+kick-all-help-without-command: "/kickall without <닉네임> <reason>"
+kick-all-help-without: "<닉네임>을 제외하고 모두 킥합니다."
+kick-all-help-whitelist-command: "/kickall whitelist <reason>"
+kick-all-help-whitelist: "모두 킥하고, 화이트리스트를 킵니다."
+kick-all-help-help-command: "/kickall help <now|delay|without|whitelist|help>"
+kick-all-help-help: "/kickall 서브명령어의 설명을 보실 수 있습니다."
+
+kor-you-are-kicked: "모두 킥되었습니다. reason : %reason%"
+kor-delay-kick: "%sec%초 뒤 모두 킥됩니다."
+kor-kick-success: "Success"

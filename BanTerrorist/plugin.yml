@@ -1,0 +1,8 @@
+name: BanTerrorist
+main: Mohi\BanTerrorist\BanTerroristMain
+version: "1.0"
+author: "Mohi(물외한인)"
+api:
+- 1.12.0
+- 1.13.0
+- 2.0.0

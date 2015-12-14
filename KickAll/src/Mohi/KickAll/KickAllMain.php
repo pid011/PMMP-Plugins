@@ -16,6 +16,16 @@ class kickAllMain extends PluginBase implements Listener {
 		if(strtolower($command) == $this->get("kor-kick-all-command") {
 			if(! isset($args[0])) {
 				$this->alert($sender, $this->get("kor-kick-all-command-help"), $this->get("kor-prefix");
+				return true;
+			}
+			swtich(strtolower($args[0])) {
+				case $this->get("kor-kick-all-command-help"):
+					if(! isset($args[1])) {
+						$this->alert($sender, $this->get("kor-kick-all-command-help-help"))
+					}
+					if($args[1] == $this->get("kor-kick-all-command-add")) {
+						
+					}
 			}
 		}
 		switch 
@@ -46,5 +56,5 @@ class kickAllMain extends PluginBase implements Listener {
 		}
 	}
 }
-   
+
 ?>

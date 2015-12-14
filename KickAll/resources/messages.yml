@@ -8,6 +8,11 @@ eng-prefix: [Server]
 kor: true
 kor-prefix: [KickAll]
 kor-kick-all-commaand: "kickall"
+kor-kick-all-command-help: "help"
+kor-kick-all-command-now: "now"
+kor-kick-all-command-delay: "delay"
+kor-kick-all-command-without: "without"
+kor-kick-all-command-whitelist: "whitelist"
 
 kor-kick-all-help: "/kickall <now|delay|without|whitelist|help>"
 kor-kick-all-help-now-command: "/kickall now <reason>"
@@ -20,12 +25,6 @@ kor-kick-all-help-whitelist-command: "/kickall whitelist <reason>"
 kor-kick-all-help-whitelist: "모두 킥하고, 화이트리스트를 킵니다."
 kor-kick-all-help-help-command: "/kickall help <now|delay|without|whitelist|help>"
 kor-kick-all-help-help: "/kickall 서브명령어의 설명을 보실 수 있습니다."
-
-kor-kick-all-command-help: "help"
-kor-kick-all-command-now: "now"
-kor-kick-all-command-delay: "delay"
-kor-kick-all-command-without: "without"
-kor-kick-all-command-whitelist: "whitelist"
 
 kor-you-are-kicked: "모두 킥되었습니다. reason : %reason%"
 kor-delay-kick: "%sec%초 뒤 모두 킥됩니다."

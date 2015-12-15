@@ -1,5 +1,5 @@
 m_version: 1
-
+default-language: "kor"
 #EN(English)
 eng: true
 eng-prefix: [Server]

@@ -12,6 +12,7 @@ public class StopBlock extends PluginBase implements Listner {
 	private $m_version = 1;
 	private $messages;
 	private $config;
+	private SL = true;
 	//private $block = ["water" => true, "lava" => true, "gravel" => false, 'sand''=> false];
 	
 	
@@ -46,7 +47,15 @@ public class StopBlock extends PluginBase implements Listner {
 		public function onBlockUpdate(BlockUpdateEveent $event) {
 			
 		}
+		public function isSLOn() {
+			return $this->SL;
+		}
 	#===============================================================================
+	public function onCommand(CommandSender $sender, Command $command, $label, Array $args) {
+		switch($args[0] == $this->get("command")){
+			case
+		}
+	}
 	public function loadMessage()
 	{
 		$this->saveResource("messages.yml");

@@ -1,10 +1,11 @@
 m_version: 1
 default-message: "kor"
 
-kor-prefix: [StopBlock]
+kor-prefix: "[StopBlock]"
 kor-description: "액체를 흐르지 않게 하거나 블럭이 떨어지지 않게 합니다."
 kor-help: "/bs <물|모래|자갈|용암>"
 
+kor-command: "bs"
 kor-command-water: "물"
 kor-command-sand: "모래"
 kor-command-lava: "용암"

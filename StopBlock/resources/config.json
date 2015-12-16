@@ -1,5 +1,6 @@
 {
 	 stopFlowingWater: "true"
 	 stopFlowinglava: "true"
-	 stopChangingIceToWater: "false"
+	 stopFallingSand: "true"
+	 stopFallingGravel: "true"
 }

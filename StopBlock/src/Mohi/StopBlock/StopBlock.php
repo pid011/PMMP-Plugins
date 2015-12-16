@@ -64,6 +64,9 @@ public class StopBlock extends PluginBase implements Listner {
 		}
 	#===============================================================================
 	public function onCommand(CommandSender $sender, Command $command, $label, Array $args) {
+		if (! isset($args[0]) ) {
+			$this->alert($sender, $this->get("command-help"));
+		}
 		
 		}
 	}

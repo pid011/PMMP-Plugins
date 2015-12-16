@@ -7,12 +7,13 @@ use pocketmne\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\utils\TextFormat;
 use pocketmine\block\BlockUpdateEvent;
+use pocketmine\block\Block;
 
 public class StopBlock extends PluginBase implements Listner {
 	private $m_version = 1;
 	private $messages;
 	private $config;
-	private SL = true;
+	private SB = true;
 	//private $block = ["water" => true, "lava" => true, "gravel" => false, 'sand''=> false];
 	
 	
@@ -44,16 +45,26 @@ public class StopBlock extends PluginBase implements Listner {
 		$this->getLogger()->alert("이 플러그인의 무단 배포는 허용하나, 무단 수정은 절대 금지합니다.");
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		}
+		public function isBlocktrue(Block $block) {
+			
+		}
 		public function onBlockUpdate(BlockUpdateEveent $event) {
 			
 		}
-		public function isSLOn() {
-			return $this->SL;
+		public function offSB() {
+			$this->SB = false;
+			return true;
+		}
+		public function onSB() {
+			$this->SB = true;
+			return true;
+		}
+		public function isSBOn() {
+			return $this->SB;
 		}
 	#===============================================================================
 	public function onCommand(CommandSender $sender, Command $command, $label, Array $args) {
-		switch($args[0] == $this->get("command")){
-			case
+		
 		}
 	}
 	public function loadMessage()

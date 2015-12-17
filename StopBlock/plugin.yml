@@ -1,5 +1,5 @@
 name: StopBlock
-main: Mohi/StopBlock/StopBlock
+main: Mohi\StopBlock\StopBlock
 author: "Mohi(물외한인)"
 version: "1.0"
 api:

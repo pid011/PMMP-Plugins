@@ -1,0 +1,7 @@
+name: Mail
+main: Mohi\Mail\Mail
+author: "Mohi(물외한인)"
+version: "1.0"
+api:
+- 1.13.0
+- 2.0.0

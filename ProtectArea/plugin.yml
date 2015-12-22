@@ -1,0 +1,8 @@
+name: ProtectArea
+main: Mohi\ProtectArea\ProtectArea
+author: Mohi
+version: "1.0"
+api:
+- 1.12.0
+- 1.13.0
+- 2.0.0

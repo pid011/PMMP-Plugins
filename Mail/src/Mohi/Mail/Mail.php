@@ -23,6 +23,11 @@ class Mail extends PluginBase implements Listner {
 			switch(strtolower($args[0])) {
 				case "cheak" :
 					
+				case "list" :
+					$sender->sendMessage(TextFormat)
+				case "new" :
+					
+				
 			}
 		}
 	}

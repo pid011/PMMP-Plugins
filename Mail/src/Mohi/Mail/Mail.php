@@ -24,9 +24,13 @@ class Mail extends PluginBase implements Listner {
 				case "cheak" :
 					
 				case "list" :
-					$sender->sendMessage(TextFormat)
-				case "new" :
 					
+				case "new" :
+					if(! isset($args[2])) {
+						$this->alert($sender, "받는 사람을 적어주세요")
+						return true;
+					}
+					$to = new SendMail()
 				
 			}
 		}

@@ -22,7 +22,7 @@ class OnlyForKoreanMain extends PluginBase implements Listener {
 	
 	 public function onLogin(PlayerPreLoginEvent $event){
 		$player = $event->getPlayer();
-		$addressInfo = json_decode(Utils::getURL(" http://freegeoip.net/json/".$player->getAddress()), true);
+		$addressInfo = json_decode(Utils::getURL("http://freegeoip.net/json/".$player->getAddress()), true);
 		if(! $addressInfo[country_code] == "KR") {
 			$event->setKickMessage("You are not Korean");
 			$event->setCanCelled();
